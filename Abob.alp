@@ -15800,7 +15800,7 @@ uniform_discr( 1, 3 )
 					<Name><![CDATA[image]]></Name>
 					<X>20</X><Y>0</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -16611,11 +16611,11 @@ uniform_discr( 1, 3 )
 				<Camera3D>
 					<Id>1680082555779</Id>
 					<Name><![CDATA[camera]]></Name>
-					<X>1945.63</X><Y>2163.1</Y><Z>857.96</Z>
+					<X>1780</X><Y>1820</Y><Z>1200</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ShowLabel>false</ShowLabel>
-					<RotationX>38.43</RotationX>
-					<RotationZ>-86.41</RotationZ>
+					<RotationX>49.0</RotationX>
+					<RotationZ>285.0</RotationZ>
 				</Camera3D>
 				<Text>
 					<Id>1680087185388</Id>
@@ -17293,7 +17293,8 @@ if(radio.getValue() == 2){
 						<Button><![CDATA[12:30-13:30]]></Button>
 						<Button><![CDATA[17:30-18:30]]></Button>
 						<LinkTo>false</LinkTo>
-						<Link>ThreadCar1</Link>
+						<Link>ThreadCar1
+</Link>
 					</ExtendedProperties>
 				</Control>
 				<Text>
@@ -17897,6 +17898,48 @@ if(radio.getValue() == 2){
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>18</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1680278391265</Id>
+					<Name><![CDATA[text30]]></Name>
+					<X>1160</X><Y>1340</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>356.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[ул. Пискунова]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>48</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1680278456923</Id>
+					<Name><![CDATA[text32]]></Name>
+					<X>2180</X><Y>1620</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>57.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[ул. Варварская]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>48</Size>
 						<Style>1</Style>
 					</Font>
 					<Alignment>LEFT</Alignment>
